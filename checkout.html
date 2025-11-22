@@ -1,0 +1,348 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro-Checkout</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="media/head1.svg">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="main-header d-none d-lg-flex">
+         <div class="left-header">
+           <a href="#" class="logo">
+           <img src="media/head1.svg" alt="">
+           </a>
+         </div>
+         <div class="mid-header">
+        <ul class="d-none d-lg-flex">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+         </div>
+         <div class="right-header">
+        <a><img src="media/head2.svg" alt=""></a>
+        <a><img src="media/head3.svg" alt=""></a>
+        <a><img src="media/head4.svg" alt=""></a>
+        <button class="open-shop"><img src="media/head5.svg" alt=""></button>
+         </div>
+      </div>
+      
+      <div class="d-block d-lg-none align-items-center">
+        <div class="container-fluid">
+          <div class="mobile-header d-flex">
+        <div class="left-header">
+           <a href="#" class="logo">
+           <img src="media/head1.svg" alt="">
+           </a>
+         </div>
+        <button class="menu bg-transparent"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="sidemenu">
+         <button class="close"><i class="fa-solid fa-xmark"></i></button>
+         <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <div class="sign">
+            <a><img src="media/head2.svg" alt=""></a>
+            <a><img src="media/head3.svg" alt=""></a>
+            <a><img src="media/head4.svg" alt=""></a>
+            <a><img src="media/head5.svg" alt=""></a>
+         </div>
+        </ul>  
+        </div>
+        </div>
+      </div>
+      </div>
+     </nav>
+     <div class="d-none d-lg-block">
+        <div class="shopping-cart">
+          <div class="top-shop">
+            <div class="head-shop">
+            <h3>Shopping Cart</h3>
+            <button class="close-shop"><img src="media/Group.svg" alt=""></button>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="img-card"><img src="media/Group 146 (1).svg" alt=""></div>
+              <div class="card-body">
+                <h5>Asgaard sofa</h5>
+                <p><span>1</span> Rs. 250,000.00</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-card"><img src="media/Group 146 (1).svg" alt=""></div>
+              <div class="card-body">
+                <h5>Asgaard sofa</h5>
+                <p><span>1</span> Rs. 250,000.00</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="bottom-shop">
+            <div class="price">
+              <h6>Subtotal</h6>
+            <p>Rs. 520,000.00</p>
+            </div>
+            <div class="links">
+              <a href="#">Cart</a>
+              <a href="#">Checkout</a>
+              <a href="#">Comparison</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+  <main>
+    <section id="hero-sub">
+      <div class="img-hero"><img src="media/Group 78.svg" alt=""></div>
+        <div class="content-hero">
+        <div class="logos"><img src="media/Meubel House_Logos-05.svg" alt=""></div>
+        <h2>Checkout</h2>
+        <div class="link">
+        <a href="#">Home</a>
+        <a href="#" class="a-right">checkout</a>
+        </div>
+        </div>
+    </section>
+    <section id="checkout">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form action="" class="left-sec">
+                        <h2>Billing details</h2>
+                        <div class="name">
+                            <div>
+                                <label for="fist-name">First Name</label>
+                                <input type="text" id="fist-name" name="fist-name" class="required">
+                            </div>
+                            <div>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="company">Company Name (Optional)</label>
+                            <input type="text" id="company" name="company" class="required">
+                        </div>
+                        <div>
+                            <label for="country">Country / Region</label>
+                            <select name="country" id="country" class="required">
+                              <option value="Country1">Country1</option>
+                              <option value="Country2">Country2</option>
+                              <option value="Country2">Country3</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="add">Street address</label>
+                            <input type="text" id="add" name="add" class="required">
+                        </div>
+                        <div>
+                            <label for="town">Town / City</label>
+                            <input type="text" id="town" name="town" class="required">
+                        </div>
+                        <div>
+                            <label for="province">Province</label>
+                            <select name="province" id="province" class="required">
+                                <option value="1" selected>Western Province</option>
+                                <option value="2">province</option>
+                                <option value="3">province</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="code">ZIP code</label>
+                            <input type="text" id="code" name="code" class="required">
+                        </div>
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input type="number" id="phone" name="phone" class="required">
+                        </div>
+                        <div>
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email" class="required">
+                        </div>
+                        <div>
+                            <textarea name="info" id="info" rows="5" placeholder="Additional information"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="product">
+                        <div class="left-product">
+                            <h3>Product</h3>
+                            <h4>Asgaard sofa<span>1</span></h4> 
+                            <p>Subtotal</p>
+                            <span>Total</span>
+                        </div>
+                        <div class="right-product">
+                            <h3>Subtotal</h3>
+                            <h4>Rs. 250,000.00</h4>
+                            <p>Rs. 250,000.00</p>
+                            <span>Rs. 250,000.00</span>
+                        </div>
+                    </div>
+                    <div class="pay">
+                      <div class="title">
+                        <span></span>
+                        <h3>Direct Bank Transfer</h3>
+                      </div>
+                      <p class="bank">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                      <form action="">
+                        <div>
+                          <input type="radio" id="bank" name="pay">
+                          <label for="bank">Direct Bank Transfer</label>
+                        </div>
+                        <div>
+                          <input type="radio" id="cash" name="pay">
+                          <label for="cash">Cash On Delivery</label>
+                        </div>
+                      </form>
+                      <div class="bottom-pay">
+                        <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span>privacy policy</span>.</p>
+                      </div>
+                      <div class="link"><a href="#">Place order</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec3-shop">
+        <div class="container">
+            <div class="row">
+              <div class="col-6 col col-lg-3">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                    <div class="img-card">
+                      <img src="media/trophy 1.svg" alt="...">
+                    </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                      <h5 class="card-title">High Quality</h5>
+                      <p class="card-text">crafted from top materials</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col col-lg-3">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                    <div class="img-card">
+                      <img src="media/guarantee.svg" alt="...">
+                    </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                      <h5 class="card-title">Warranty Protection</h5>
+                      <p class="card-text">Over 2 years</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col col-lg-3">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                    <div class="img-card">
+                      <img src="media/shipping.svg" alt="...">
+                    </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                      <h5 class="card-title">Free Shipping</h5>
+                      <p class="card-text">Order over 150 $</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col col-lg-3">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                    <div class="img-card">
+                      <img src="media/customer-support.svg" alt="...">
+                    </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                      <h5 class="card-title">24 / 7 Support</h5>
+                      <p class="card-text">Dedicated support</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="left-footer">
+            <a href="#">Funiro.</a>
+            <ul>
+              <li>400 University Drive Suite 200 Coral</li>
+              <li>Gables,</li>
+              <li>FL 33134 USA</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-10 col-md-8">
+         <div class="right-footer">
+           <ul>
+              <li><a href="">Links</a></li>
+              <li><a href="" class="location">Home</a></li>
+              <li><a href="" class="phone">Shop</a></li>
+              <li><a href="" class="email">About</a></li>
+              <li><a href="" class="email">Contact</a></li>
+          </ul>
+          <ul>
+              <li><a href="">Help</a></li>
+              <li><a href="">Payment Options</a></li>
+              <li><a href="">Returns</a></li>
+              <li><a href="">Privacy Policies</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Newsletter</a></li>
+            <li>
+          <form action="">
+            <input type="text" placeholder="Enter Your Email Address">
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          </li>
+          </ul>
+         </div>
+        </div>
+      </div>
+      <div class="bottom-page"><p>2023 furino. All rights reverved</p></div>
+    </div>
+  </footer>
+ 
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
+     <script src="js/jquery-3.7.1.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="js/script.js"></script>
+ 
+</body></html>
